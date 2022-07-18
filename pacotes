@@ -1,0 +1,63 @@
+criar projeto
+yarn init -y
+
+
+dependencias
+ yarn add typescript -D
+ yarn add express
+ yarn add @types/express -D
+
+ inicializar o ts
+ yarn tsc --init
+
+ rodar o ts
+ yarn add ts-node-dev -D
+
+ criar nas dependencias
+ "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+ }
+
+
+ pra tratar erros
+ yarn add express-async-errors
+
+
+ liberar pra qlq ip fazer requisicao
+ yarn add cors
+ pra sair o error
+ yarn add @types/cors -D
+
+ download postgre 11.16
+ https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+ download postbird pra facilitar visu do postgre
+ https://www.electronjs.org/apps/postbird
+
+ download beekesspers
+ https://www.beekeeperstudio.io/get
+
+
+ add prisma
+ yarn add prisma
+ yarn add @prisma/client
+ npx prisma init
+
+
+ criptografar senha
+ yarn add bcryptjs
+ yarn add @types/bcryptjs -D
+
+
+ yarn add jsonwebtoken
+ yarn add @types/jsonwebtoken -D
+
+
+
+ sempre instalar, aq ja veio com o prisma
+ yarn add dotenv
+
+
+ salvar imagens
+ yarn add multer
+ yarn add @types/multer -D
