@@ -49,6 +49,10 @@ dependencias
  npx prisma init
  
  //criar uma migration: yarn prisma migrate dev
+ 
+ //caso for bd pronto
+npx prisma introspect
+npx prisma generate
 
 
  criptografar senha
