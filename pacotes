@@ -17,6 +17,11 @@ dependencias
  "scripts": {
     "dev": "ts-node-dev src/server.ts"
  }
+ 
+ coloca no arquivo tsconfig.json
+ "typeRoots": [
+      "./src/@types"
+    ],  
 
 
  pra tratar erros
