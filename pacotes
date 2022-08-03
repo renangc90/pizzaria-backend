@@ -47,6 +47,8 @@ dependencias
  yarn add prisma
  yarn add @prisma/client
  npx prisma init
+ 
+ //criar uma migration: yarn prisma migrate dev
 
 
  criptografar senha
